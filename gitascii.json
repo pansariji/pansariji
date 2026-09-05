@@ -1,0 +1,137 @@
+{
+  "widgets": [
+    {
+      "widgetId": "surveillance-telemetry",
+      "name": "Surveillance-telemetry Widget",
+      "position": {
+        "x": 10,
+        "y": 441
+      },
+      "size": {
+        "width": 780,
+        "height": 420
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Terminal Telemetry",
+        "secondaryColor": "#55ffff",
+        "ledColor": "#00ff88",
+        "hideBorder": true,
+        "hideDecorations": true,
+        "animationType": "scan-lines",
+        "animationPreviewKey": 2,
+        "animationDuration": 1500,
+        "animationDelay": 250
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1788609099318_1"
+    },
+    {
+      "widgetId": "surveillance-feeds",
+      "name": "Surveillance-feeds Widget",
+      "position": {
+        "x": 10,
+        "y": 1085
+      },
+      "size": {
+        "width": 780,
+        "height": 190
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Surveillance Social Feeds",
+        "secondaryColor": "#55ffff",
+        "ledColor": "#00ff88",
+        "renderMode": "grid",
+        "animationType": "scan-lines",
+        "animationPreviewKey": 1,
+        "animationDelay": 400
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2,
+      "instanceId": "widget_1788609099318_2"
+    },
+    {
+      "widgetId": "surveillance-loadout",
+      "name": "Surveillance-loadout Widget",
+      "position": {
+        "x": 10,
+        "y": 869
+      },
+      "size": {
+        "width": 780,
+        "height": 200
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Daily Loadout",
+        "displayMode": "both",
+        "workflow": [
+          "VS Code",
+          "Git",
+          "Terminal",
+          "Linux",
+          "Android Studio"
+        ],
+        "languages": [
+          "Python",
+          "java",
+          "C++",
+          "Rust",
+          "flutter",
+          "dart"
+        ],
+        "animationType": "scan-lines",
+        "animationPreviewKey": 1,
+        "animationDelay": 500
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1788609099318_3"
+    },
+    {
+      "widgetId": "surveillance-header",
+      "name": "Surveillance-header Widget",
+      "position": {
+        "x": 10,
+        "y": 0
+      },
+      "size": {
+        "width": 780,
+        "height": 417
+      },
+      "config": {
+        "accentColor": "#c5ff4a",
+        "customTitle": "Surveillance Header",
+        "hideBorder": true,
+        "hideDecorations": true,
+        "roleTag": "Android Devloper",
+        "modeTag": "198X MODE",
+        "animationType": "scan-lines",
+        "animationPreviewKey": 11,
+        "secondaryColor": "#55ffff",
+        "ledColor": "#00ff88"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4,
+      "instanceId": "widget_1788609099318_0"
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#050308",
+    "textColor": "#e5e5e5",
+    "accentColor": "#55ffff",
+    "borderColor": "#1a1424",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "rugbedbugg"
+  },
+  "templateId": "rugbedbugg"
+}
