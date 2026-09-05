@@ -3717,8 +3717,8 @@
         "hideDecorations": true,
         "rigInfo": "Endeavour OS Linux · Hyprland | Windows",
         "habitInfo": "Keep building ",
-        "animationType": "scan-lines",
-        "animationPreviewKey": 4
+        "animationType": "none",
+        "animationPreviewKey": 5
       },
       "locked": false,
       "visible": true,
@@ -3757,8 +3757,8 @@
           "flutter",
           "dart"
         ],
-        "animationType": "scan-lines",
-        "animationPreviewKey": 10,
+        "animationType": "none",
+        "animationPreviewKey": 11,
         "animationDuration": 600
       },
       "locked": false,
@@ -3770,8 +3770,8 @@
       "widgetId": "contribution-snake",
       "name": "Contribution-snake Widget",
       "position": {
-        "x": 13,
-        "y": 896
+        "x": 10,
+        "y": 946
       },
       "size": {
         "width": 774,
@@ -3830,8 +3830,9 @@
         "embedType": "card",
         "borderColor": "#060606",
         "hideTitle": false,
-        "animationType": "scan-lines",
-        "animationPreviewKey": 3
+        "animationType": "none",
+        "animationPreviewKey": 4,
+        "lockAspectRatio": true
       },
       "locked": false,
       "visible": true,
