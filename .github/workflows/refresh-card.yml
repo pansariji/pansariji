@@ -29,6 +29,10 @@ jobs:
           curl -fsSL --retry 3 --retry-delay 5 \
             "$GH_ASCII_URL/$HANDLE?theme=light" \
             -o light_mode.svg
+          
+          # Override languages with custom list
+          sed -i -E 's/(Languages: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1Java, Flutter, Dart, Rust, C++, Python\2/' dark_mode.svg
+          sed -i -E 's/(Languages: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1Java, Flutter, Dart, Rust, C++, Python\2/' light_mode.svg
 
       - name: Commit only if the card changed
         run: |
