@@ -35,8 +35,8 @@ jobs:
           sed -i -E 's/(Languages: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1Java, Flutter, Dart, Rust, C++, Python\2/' light_mode.svg
           
           # Override top repo
-          sed -i -E 's/(Top repo: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1dropit\2/' dark_mode.svg
-          sed -i -E 's/(Top repo: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1dropit\2/' light_mode.svg
+          sed -i -E 's/(Top repo: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1Dropit\2/' dark_mode.svg
+          sed -i -E 's/(Top repo: <\/tspan><tspan[^>]*>[^<]*<\/tspan><tspan[^>]*> )[^<]+(<\/tspan>)/\1Dropit\2/' light_mode.svg
 
       - name: Commit only if the card changed
         run: |
